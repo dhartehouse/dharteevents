@@ -1,0 +1,407 @@
+{
+  "taxonomy": {
+    "categories": [
+      {
+        "name": "Alternative Medicine",
+        "slug": "alternative-medicine",
+        "subcategories": [
+          {
+            "name": "Ayurveda",
+            "slug": "ayurveda",
+            "definition": "Ancient Indian system using herbs, diet, and lifestyle for balance."
+          },
+          {
+            "name": "Homeopathy",
+            "slug": "homeopathy",
+            "definition": "Remedies based on the 'like cures like' principle."
+          },
+          {
+            "name": "Naturopathy",
+            "slug": "naturopathy",
+            "definition": "Natural healing through diet, fasting, and detox practices."
+          },
+          {
+            "name": "Traditional Chinese Medicine",
+            "slug": "tcm",
+            "definition": "Acupuncture, herbal medicine, and qigong."
+          },
+          {
+            "name": "Reiki & Energy Healing",
+            "slug": "reiki-energy",
+            "definition": "Channeling energy for physical and emotional wellbeing."
+          },
+          {
+            "name": "Sound & Vibrational Therapy",
+            "slug": "sound-vibration",
+            "definition": "Healing with frequencies, gongs, and bowls."
+          }
+        ]
+      },
+      {
+        "name": "Yoga & Meditation",
+        "slug": "yoga-meditation",
+        "subcategories": [
+          {
+            "name": "Hatha Yoga",
+            "slug": "hatha",
+            "definition": "Foundational postures and breath."
+          },
+          {
+            "name": "Vinyasa Flow",
+            "slug": "vinyasa",
+            "definition": "Dynamic, breath-synchronized sequences."
+          },
+          {
+            "name": "Kundalini Yoga",
+            "slug": "kundalini",
+            "definition": "Breath, mantra, and movement for energy."
+          },
+          {
+            "name": "Yin & Restorative",
+            "slug": "yin-restorative",
+            "definition": "Gentle, long-held poses for deep release."
+          },
+          {
+            "name": "Pranayama",
+            "slug": "pranayama",
+            "definition": "Breath control for vitality and calmness."
+          },
+          {
+            "name": "Buddhist Meditation",
+            "slug": "buddhist-meditation",
+            "definition": "Vipassana, Zen, mindfulness traditions."
+          }
+        ]
+      },
+      {
+        "name": "Healing & Therapy",
+        "slug": "healing-therapy",
+        "subcategories": [
+          {
+            "name": "Massage Therapy",
+            "slug": "massage",
+            "definition": "Hands-on techniques to relax and release."
+          },
+          {
+            "name": "Bodywork & Somatics",
+            "slug": "somatics",
+            "definition": "Movement/touch to build body awareness."
+          },
+          {
+            "name": "Trauma Release",
+            "slug": "trauma-release",
+            "definition": "Methods to release stored trauma."
+          },
+          {
+            "name": "Mental Health & Counseling",
+            "slug": "mental-health",
+            "definition": "Holistic psychology, therapy, coaching."
+          },
+          {
+            "name": "Hypnotherapy",
+            "slug": "hypnotherapy",
+            "definition": "Guided trance for healing/change."
+          },
+          {
+            "name": "Chakra Balancing",
+            "slug": "chakra-balancing",
+            "definition": "Aligning energy centers for harmony."
+          }
+        ]
+      },
+      {
+        "name": "Arts & Creativity",
+        "slug": "arts-creativity",
+        "subcategories": [
+          {
+            "name": "Music Journeys",
+            "slug": "music-journeys",
+            "definition": "Healing through sound and rhythm."
+          },
+          {
+            "name": "Dance & Movement Arts",
+            "slug": "dance-movement",
+            "definition": "Expressive movement for release."
+          },
+          {
+            "name": "Creative Writing",
+            "slug": "creative-writing",
+            "definition": "Journaling/writing for self-inquiry."
+          },
+          {
+            "name": "Painting & Visual Arts",
+            "slug": "visual-arts",
+            "definition": "Art as meditation and therapy."
+          },
+          {
+            "name": "Theatre & Performance",
+            "slug": "theatre-performance",
+            "definition": "Expression for emotional healing."
+          },
+          {
+            "name": "Storytelling & Mythology",
+            "slug": "storytelling-mythology",
+            "definition": "Narrative for wisdom and change."
+          }
+        ]
+      },
+      {
+        "name": "Nutrition & Lifestyle",
+        "slug": "nutrition-lifestyle",
+        "subcategories": [
+          {
+            "name": "Plant-Based Cooking",
+            "slug": "plant-based",
+            "definition": "Whole-food recipes and practices."
+          },
+          {
+            "name": "Ayurveda Nutrition",
+            "slug": "ayurveda-nutrition",
+            "definition": "Food as medicine by constitution."
+          },
+          {
+            "name": "Detox & Cleansing",
+            "slug": "detox-cleansing",
+            "definition": "Programs to purify body and mind."
+          },
+          {
+            "name": "Herbal Teas & Superfoods",
+            "slug": "herbal-superfoods",
+            "definition": "Natural boosters for health."
+          },
+          {
+            "name": "Conscious Eating",
+            "slug": "conscious-eating",
+            "definition": "Mindful eating practices."
+          },
+          {
+            "name": "Gut Health",
+            "slug": "gut-health",
+            "definition": "Digestion and microbiome focus."
+          }
+        ]
+      },
+      {
+        "name": "Sustainability & Conscious Living",
+        "slug": "sustainability-conscious-living",
+        "subcategories": [
+          {
+            "name": "Eco-Living",
+            "slug": "eco-living",
+            "definition": "Low-impact, zero-waste lifestyle."
+          },
+          {
+            "name": "Permaculture",
+            "slug": "permaculture",
+            "definition": "Sustainable farming/gardening systems."
+          },
+          {
+            "name": "Holistic Architecture & Vastu",
+            "slug": "architecture-vastu",
+            "definition": "Designing spaces for harmony."
+          },
+          {
+            "name": "Community Building",
+            "slug": "community-building",
+            "definition": "Co-ops, shared living, collective healing."
+          },
+          {
+            "name": "Sustainable Fashion",
+            "slug": "sustainable-fashion",
+            "definition": "Ethical textiles and choices."
+          },
+          {
+            "name": "Conscious Entrepreneurship",
+            "slug": "conscious-entrepreneurship",
+            "definition": "Purpose-aligned business."
+          }
+        ]
+      },
+      {
+        "name": "Spiritual Growth & Consciousness",
+        "slug": "spiritual-growth",
+        "subcategories": [
+          {
+            "name": "Tantra & Sacred Sexuality",
+            "slug": "tantra",
+            "definition": "Intimacy and energy expansion."
+          },
+          {
+            "name": "Astrology & Vedic Sciences",
+            "slug": "astrology-vedic",
+            "definition": "Cosmic guidance for growth."
+          },
+          {
+            "name": "Human Design & Gene Keys",
+            "slug": "human-design",
+            "definition": "Personal blueprints."
+          },
+          {
+            "name": "Tarot & Oracle Guidance",
+            "slug": "tarot-oracle",
+            "definition": "Intuitive tools for reflection."
+          },
+          {
+            "name": "Shamanic Journeys",
+            "slug": "shamanic-journeys",
+            "definition": "Nature/ancestral ceremonies."
+          },
+          {
+            "name": "Conscious Relationships",
+            "slug": "conscious-relationships",
+            "definition": "Practices for authentic connection."
+          }
+        ]
+      }
+    ],
+    "event_types": [
+      {
+        "name": "Workshops",
+        "slug": "workshops",
+        "definition": "Short, practical sessions (1–3 hrs)."
+      },
+      {
+        "name": "Retreats",
+        "slug": "retreats",
+        "definition": "Multi-day immersive experiences."
+      },
+      {
+        "name": "Courses",
+        "slug": "courses",
+        "definition": "Structured programs with modules."
+      },
+      {
+        "name": "Classes",
+        "slug": "classes",
+        "definition": "Regular practice sessions."
+      },
+      {
+        "name": "Ceremonies & Rituals",
+        "slug": "ceremonies-rituals",
+        "definition": "Cacao, fire, moon circles."
+      },
+      {
+        "name": "Sound Journeys",
+        "slug": "sound-journeys",
+        "definition": "Gong, crystal bowls, vibration."
+      },
+      {
+        "name": "Festivals & Gatherings",
+        "slug": "festivals-gatherings",
+        "definition": "Multi-activity community events."
+      },
+      {
+        "name": "Expos & Conferences",
+        "slug": "expos-conferences",
+        "definition": "Exhibitions, fairs, panels."
+      },
+      {
+        "name": "Community Circles",
+        "slug": "community-circles",
+        "definition": "Satsangs, women’s/men’s groups."
+      },
+      {
+        "name": "One-on-One Sessions",
+        "slug": "one-on-one",
+        "definition": "Private healing or coaching."
+      },
+      {
+        "name": "Online Events",
+        "slug": "online-events",
+        "definition": "Webinars, livestreams, virtual classes."
+      },
+      {
+        "name": "Corporate Wellness",
+        "slug": "corporate-wellness",
+        "definition": "Workplace programs and offsites."
+      }
+    ]
+  },
+  "events": [
+    {
+      "title": "Dharte Fest Mumbai — Tune Your Frequency",
+      "slug": "dharte-fest-mumbai-2025",
+      "organizer": "Dharte",
+      "short_desc": "A one-day field of resonance bringing wellness, arts, and conscious business together.",
+      "long_desc": "Panels, micro-classes, sound journeys, and a closing Tantra Dance. Network with facilitators, studios, venues, and conscious brands.",
+      "start_dt": "2025-09-27T12:00:00+05:30",
+      "end_dt": "2025-09-27T21:00:00+05:30",
+      "timezone": "Asia/Kolkata",
+      "online_bool": false,
+      "city": "Mumbai",
+      "country": "India",
+      "venue_text": "Radio Club, Mumbai",
+      "cover_image_url": "",
+      "category_slug": "spiritual-growth",
+      "subcategory_slug": "tantra",
+      "event_type_slug": "festivals-gatherings",
+      "ticket_tiers": [
+        {
+          "name": "VIP Pass",
+          "price_inr": 600,
+          "qty_total": 2000,
+          "min_per_order": 1,
+          "max_per_order": 10,
+          "sales_start_dt": "2025-07-01T00:00:00+05:30",
+          "sales_end_dt": "2025-09-27T12:00:00+05:30"
+        }
+      ]
+    },
+    {
+      "title": "Dharte Fest Dharamshala (DAWF)",
+      "slug": "dharte-fest-dharamshala-2025",
+      "organizer": "Dharte",
+      "short_desc": "Three-day mountain festival blending music, healing, movement, and art.",
+      "long_desc": "Experiences to nourish body, mind, and soul with community and creativity.",
+      "start_dt": "2025-08-29T09:00:00+05:30",
+      "end_dt": "2025-08-31T21:00:00+05:30",
+      "timezone": "Asia/Kolkata",
+      "online_bool": false,
+      "city": "Dharamshala",
+      "country": "India",
+      "venue_text": "Dharamkot, Kuli Road (near Cool Talk Café)",
+      "cover_image_url": "",
+      "category_slug": "arts-creativity",
+      "subcategory_slug": "dance-movement",
+      "event_type_slug": "festivals-gatherings",
+      "ticket_tiers": [
+        {
+          "name": "Stall",
+          "price_inr": 3000,
+          "qty_total": 200,
+          "min_per_order": 1,
+          "max_per_order": 5,
+          "sales_start_dt": "2025-07-01T00:00:00+05:30",
+          "sales_end_dt": "2025-08-29T09:00:00+05:30"
+        },
+        {
+          "name": "Sponsor Bronze",
+          "price_inr": 10000,
+          "qty_total": 50,
+          "min_per_order": 1,
+          "max_per_order": 5,
+          "sales_start_dt": "2025-07-01T00:00:00+05:30",
+          "sales_end_dt": "2025-08-29T09:00:00+05:30"
+        },
+        {
+          "name": "Sponsor Silver",
+          "price_inr": 25000,
+          "qty_total": 30,
+          "min_per_order": 1,
+          "max_per_order": 3,
+          "sales_start_dt": "2025-07-01T00:00:00+05:30",
+          "sales_end_dt": "2025-08-29T09:00:00+05:30"
+        },
+        {
+          "name": "Sponsor Gold",
+          "price_inr": 50000,
+          "qty_total": 20,
+          "min_per_order": 1,
+          "max_per_order": 2,
+          "sales_start_dt": "2025-07-01T00:00:00+05:30",
+          "sales_end_dt": "2025-08-29T09:00:00+05:30"
+        }
+      ]
+    }
+  ]
+}
