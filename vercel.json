@@ -19,9 +19,5 @@
       "src": "/(.*)",
       "dest": "/dist/$1"
     }
-  ],
-  "env": {
-    "STRIPE_SECRET_KEY": "@stripe-secret-key",
-    "VITE_STRIPE_PUBLISHABLE_KEY": "@stripe-publishable-key"
-  }
+  ]
 }
