@@ -13,6 +13,10 @@ export default function Header() {
   const navigation = [
     { name: 'Home', href: '/' },
     { name: 'Events', href: '/events' },
+    { name: 'Facilitators', href: '/facilitators' },
+    { name: 'Promoters', href: '/promoters' },
+    { name: 'Houses', href: '/houses' },
+    { name: 'Brands', href: '/brands' },
   ]
 
   const isActive = (path) => location.pathname === path
