@@ -14,15 +14,15 @@ export default function EventsPage() {
     : events.filter(event => event.categories?.includes(selectedCategory))
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50 overflow-fix">
       {/* Hero Section */}
-      <section className="py-20" style={{backgroundColor: '#092d1f'}}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
+      <section className="hero-section py-20 overflow-fix" style={{backgroundColor: '#092d1f'}}>
+        <div className="container-fix">
+          <div className="text-center space-responsive">
+            <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 text-responsive-4xl">
               Discover Extraordinary Events
             </h1>
-            <p className="text-xl text-white/90 max-w-3xl mx-auto">
+            <p className="text-xl text-white/90 max-w-3xl mx-auto text-responsive-lg">
               Join thousands of attendees experiencing transformative festivals, immersive workshops, 
               and exclusive gatherings across India's most beautiful locations.
             </p>

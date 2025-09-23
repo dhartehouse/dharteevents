@@ -23,6 +23,11 @@ export function formatDateTime(dateString, formatStr = 'MMM dd, yyyy • h:mm a'
   return format(parseISO(dateString), formatStr)
 }
 
+export function formatTime(timeString) {
+  if (!timeString) return ''
+  return timeString
+}
+
 export function isEventToday(startDate) {
   const today = startOfDay(new Date())
   const eventDate = startOfDay(parseISO(startDate))

@@ -5,7 +5,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen">
       {/* Beautiful Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center" style={{backgroundColor: '#092d1f'}}>
+      <section className="hero-section relative min-h-screen flex items-center justify-center overflow-fix" style={{backgroundColor: '#092d1f'}}>
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-20 left-10 w-32 h-32 rounded-full border border-white/20"></div>
@@ -14,8 +14,8 @@ export default function HomePage() {
           <div className="absolute bottom-20 right-10 w-28 h-28 rounded-full border border-white/20"></div>
         </div>
 
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="max-w-4xl mx-auto">
+        <div className="relative z-10 container-fix text-center">
+          <div className="max-w-4xl mx-auto space-responsive">
             {/* Badge */}
             <div className="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-sm border border-white/20 px-6 py-3 rounded-full mb-8">
               <span className="text-sm font-semibold text-white tracking-wider uppercase">
@@ -24,11 +24,11 @@ export default function HomePage() {
             </div>
 
             {/* Main Heading */}
-            <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+            <h1 className="hero-title text-5xl md:text-7xl font-bold text-white mb-6 leading-tight text-responsive-4xl">
               dharte Fest
             </h1>
             
-            <h2 className="text-2xl md:text-3xl text-white/90 mb-8 font-light">
+            <h2 className="hero-subtitle text-2xl md:text-3xl text-white/90 mb-8 font-light text-responsive-xl">
               Where wellness, art, and conscious business converge in transformative experiences
             </h2>
 
@@ -39,10 +39,10 @@ export default function HomePage() {
             </p>
 
             {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-6 justify-center mb-16">
+            <div className="flex flex-col sm:flex-row gap-6 justify-center mb-16 gap-responsive">
               <Link 
                 to="/events"
-                className="inline-flex items-center px-8 py-4 bg-white text-black font-semibold text-lg rounded-xl hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl"
+                className="btn-responsive inline-flex items-center px-8 py-4 bg-white text-black font-semibold text-lg rounded-xl hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl"
               >
                 <Calendar className="mr-3 h-6 w-6" />
                 Explore All Events
@@ -85,20 +85,20 @@ export default function HomePage() {
       </section>
 
       {/* Upcoming Events Preview */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4" style={{color: '#092d1f'}}>
+      <section className="py-20 bg-white overflow-fix">
+        <div className="container-fix">
+          <div className="text-center mb-16 space-responsive">
+            <h2 className="text-4xl font-bold mb-4 text-responsive-3xl" style={{color: '#092d1f'}}>
               Upcoming dharte Fest
             </h2>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto text-responsive-lg">
               Immerse yourself in transformative wellness experiences across India's most beautiful locations
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-12">
+          <div className="card-grid md:grid-cols-2">
             {/* Mumbai Event */}
-            <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100">
+            <div className="event-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100">
               <div className="p-8">
                 <div className="flex items-center justify-between mb-4">
                   <span className="px-4 py-2 bg-green-100 text-green-800 rounded-full text-sm font-semibold">
@@ -133,7 +133,7 @@ export default function HomePage() {
             </div>
 
             {/* Dharamshala Event */}
-            <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100">
+            <div className="event-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100">
               <div className="p-8">
                 <div className="flex items-center justify-between mb-4">
                   <span className="px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-semibold">

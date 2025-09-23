@@ -14,13 +14,14 @@ import OrderSuccessPage from './pages/OrderSuccessPage'
 import AccountPage from './pages/AccountPage'
 import AdminPage from './pages/AdminPage'
 import './App.css'
+import './components/ResponsiveLayoutFixes.css'
 
 function App() {
   return (
     <Router>
-      <div className="min-h-screen bg-background flex flex-col">
+      <div className="min-h-screen bg-background flex flex-col overflow-fix">
         <Header />
-        <main className="flex-1">
+        <main className="flex-1 overflow-fix">
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/events" element={<EventsPage />} />
